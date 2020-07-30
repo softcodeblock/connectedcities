@@ -8,16 +8,21 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Component;
+
+import com.Services.FindConnectingCities;
 
 @Component
 public class AppUtil {
 	
+	Logger logger = LoggerFactory.getLogger(AppUtil.class);
 	@Cacheable("connected-cities")
 	public HashMap<String, String> LoadConnectedCities() throws IOException{
 		
-		System.out.println("......................Loading Data .........................");
+		logger.info("AppUtil: LoadConnectedCities : Loading Connected Cities Data");
 		//Reads .csv file and and create a stream of data.
 		Stream<String> row1 = Files.lines(Paths.get("src/main/resources/connectedcities.csv"));
 		

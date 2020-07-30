@@ -1,0 +1,61 @@
+2020-07-30 01:32:19.914  INFO 70332 --- [restartedMain] com.connectingcities.Application         : Starting Application on Myras-MBP.lan with PID 70332 (/Users/myrasingla/git/connectedcities/connectingcities/target/classes started by myrasingla in /Users/myrasingla/git/connectedcities/connectingcities)
+2020-07-30 01:32:19.914  INFO 70332 --- [restartedMain] com.connectingcities.Application         : No active profile set, falling back to default profiles: default
+2020-07-30 01:32:20.347  INFO 70332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-30 01:32:20.348  INFO 70332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-30 01:32:20.348  INFO 70332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-30 01:32:20.354  INFO 70332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-30 01:32:20.355  INFO 70332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 433 ms
+2020-07-30 01:32:20.432  INFO 70332 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-30 01:32:20.480  INFO 70332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-30 01:32:20.489  INFO 70332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-30 01:32:20.492  INFO 70332 --- [restartedMain] com.connectingcities.Application         : Started Application in 0.655 seconds (JVM running for 454.328)
+2020-07-30 01:32:20.493  INFO 70332 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-30 01:32:34.769  INFO 70332 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-30 01:32:34.771  INFO 70332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-30 01:32:34.781  INFO 70332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-07-30 01:32:34.800  INFO 70332 --- [http-nio-8080-exec-1] com.controllers.ConnectingCities         : ConnectingCities: connected :: city1: atlantacity2: dallas1
+2020-07-30 01:32:34.814  INFO 70332 --- [http-nio-8080-exec-1] com.util.AppUtil                         : AppUtil: LoadConnectedCities : Loading Connected Cities Data
+2020-07-30 01:32:34.823  INFO 70332 --- [http-nio-8080-exec-1] com.Services.FindConnectingCities        : FindConnectingCities: isConnectionFind
+2020-07-30 01:32:38.681  INFO 70332 --- [http-nio-8080-exec-2] com.controllers.ConnectingCities         : ConnectingCities: connected :: city1: atlantacity2: dallas
+2020-07-30 01:32:38.685  INFO 70332 --- [http-nio-8080-exec-2] com.Services.FindConnectingCities        : FindConnectingCities: isConnectionFind
+2020-07-30 01:55:50.403  INFO 70332 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-30 01:56:21.015  INFO 70553 --- [main] com.connectingcities.ApplicationTests    : Starting ApplicationTests on Myras-MBP.lan with PID 70553 (started by myrasingla in /Users/myrasingla/git/connectedcities/connectingcities)
+2020-07-30 01:56:21.018  INFO 70553 --- [main] com.connectingcities.ApplicationTests    : No active profile set, falling back to default profiles: default
+2020-07-30 01:56:22.202  INFO 70553 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-30 01:56:22.463  INFO 70553 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-07-30 01:56:22.464  INFO 70553 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-07-30 01:56:22.476  INFO 70553 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 12 ms
+2020-07-30 01:56:22.508  INFO 70553 --- [main] com.connectingcities.ApplicationTests    : Started ApplicationTests in 2.07 seconds (JVM running for 3.714)
+2020-07-30 01:56:22.935  INFO 70553 --- [main] com.controllers.ConnectingCities         : ConnectingCities: connected :: city1: DALLAScity2: ATLANTA
+2020-07-30 01:56:22.947  INFO 70553 --- [main] com.util.AppUtil                         : AppUtil: LoadConnectedCities : Loading Connected Cities Data
+2020-07-30 01:56:22.950  INFO 70553 --- [main] com.Services.FindConnectingCities        : FindConnectingCities: isConnectionFind
+2020-07-30 01:56:22.992  INFO 70553 --- [main] com.controllers.ConnectingCities         : ConnectingCities: connected :: city1: dallascity2: Irving
+2020-07-30 01:56:22.993  INFO 70553 --- [main] com.util.AppUtil                         : AppUtil: LoadConnectedCities : Loading Connected Cities Data
+2020-07-30 01:56:22.993  INFO 70553 --- [main] com.Services.FindConnectingCities        : FindConnectingCities: isConnectionFind
+2020-07-30 01:56:23.035  INFO 70553 --- [main] com.controllers.ConnectingCities         : ConnectingCities: connected :: city1: dallascity2: atlanta
+2020-07-30 01:56:23.035  INFO 70553 --- [main] com.util.AppUtil                         : AppUtil: LoadConnectedCities : Loading Connected Cities Data
+2020-07-30 01:56:23.035  INFO 70553 --- [main] com.Services.FindConnectingCities        : FindConnectingCities: isConnectionFind
+2020-07-30 01:56:23.051  INFO 70553 --- [main] com.controllers.ConnectingCities         : ConnectingCities: connected :: city1: dallascity2: atlanta
+2020-07-30 01:56:23.051  INFO 70553 --- [main] com.util.AppUtil                         : AppUtil: LoadConnectedCities : Loading Connected Cities Data
+2020-07-30 01:56:23.052  INFO 70553 --- [main] com.Services.FindConnectingCities        : FindConnectingCities: isConnectionFind
+2020-07-30 01:56:23.099  INFO 70553 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-30 01:56:38.905  INFO 70598 --- [main] com.connectingcities.ApplicationTests    : Starting ApplicationTests on Myras-MBP.lan with PID 70598 (started by myrasingla in /Users/myrasingla/git/connectedcities/connectingcities)
+2020-07-30 01:56:38.909  INFO 70598 --- [main] com.connectingcities.ApplicationTests    : No active profile set, falling back to default profiles: default
+2020-07-30 01:56:39.889  INFO 70598 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-30 01:56:40.142  INFO 70598 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-07-30 01:56:40.142  INFO 70598 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-07-30 01:56:40.153  INFO 70598 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 11 ms
+2020-07-30 01:56:40.185  INFO 70598 --- [main] com.connectingcities.ApplicationTests    : Started ApplicationTests in 1.667 seconds (JVM running for 2.526)
+2020-07-30 01:56:40.542  INFO 70598 --- [main] com.controllers.ConnectingCities         : ConnectingCities: connected :: city1: DALLAScity2: ATLANTA
+2020-07-30 01:56:40.549  INFO 70598 --- [main] com.util.AppUtil                         : AppUtil: LoadConnectedCities : Loading Connected Cities Data
+2020-07-30 01:56:40.552  INFO 70598 --- [main] com.Services.FindConnectingCities        : FindConnectingCities: isConnectionFind
+2020-07-30 01:56:40.589  INFO 70598 --- [main] com.controllers.ConnectingCities         : ConnectingCities: connected :: city1: dallascity2: Irving
+2020-07-30 01:56:40.590  INFO 70598 --- [main] com.util.AppUtil                         : AppUtil: LoadConnectedCities : Loading Connected Cities Data
+2020-07-30 01:56:40.591  INFO 70598 --- [main] com.Services.FindConnectingCities        : FindConnectingCities: isConnectionFind
+2020-07-30 01:56:40.633  INFO 70598 --- [main] com.controllers.ConnectingCities         : ConnectingCities: connected :: city1: dallascity2: atlanta
+2020-07-30 01:56:40.633  INFO 70598 --- [main] com.util.AppUtil                         : AppUtil: LoadConnectedCities : Loading Connected Cities Data
+2020-07-30 01:56:40.634  INFO 70598 --- [main] com.Services.FindConnectingCities        : FindConnectingCities: isConnectionFind
+2020-07-30 01:56:40.650  INFO 70598 --- [main] com.controllers.ConnectingCities         : ConnectingCities: connected :: city1: dallascity2: atlanta
+2020-07-30 01:56:40.650  INFO 70598 --- [main] com.util.AppUtil                         : AppUtil: LoadConnectedCities : Loading Connected Cities Data
+2020-07-30 01:56:40.650  INFO 70598 --- [main] com.Services.FindConnectingCities        : FindConnectingCities: isConnectionFind
+2020-07-30 01:56:40.665  INFO 70598 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
